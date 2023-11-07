@@ -1,0 +1,33 @@
+.pre-nav{
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(25, 24, 24);
+    height: 3.4rem;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
+.pre-nav >div{
+display: flex;
+gap: 1rem;
+margin-left: 6rem;
+margin-right: 5rem;
+}
+
+.pre-nav , div ,a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    /* transition: 1s ease; */
+}
+.pre-nav > div ,a:hover{
+    /* color: white; */
+}
+.pre-nav ,div ,div ,svg {
+    fill: rgb(159, 153, 153);
+}
+
+.pre-nav  ,div ,div ,svg:hover{
+    color: white;
+}

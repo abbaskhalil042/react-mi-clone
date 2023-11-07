@@ -1,0 +1,17 @@
+/* 
+
+i have use tailwind for this
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.offer img{
+    padding: 1rem;
+    transition: 1s all;
+}
+
+.offer img:hover{
+    /* box-shadow: .6rem 1rem 1rem rgb(140, 138, 138);  */
